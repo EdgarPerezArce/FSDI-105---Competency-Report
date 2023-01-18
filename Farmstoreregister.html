@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Farmstorestyles/mystyle2.css">
+    
+    <title>FarmStoreRegister</title>
+</head>
+<body background="farmstorepattern.jpg">
+    <div class="flex-container">
+        <h1 class="shop-name">FarmStore</h1>
+    </div>
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="Farmstore.html">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="Farmstoreregister.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="Farmstoreusers.html">Users</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active">About</a>
+                    </li>
+                  </ul>
+                </nav>
+        <h2>FarmStoreRegister</h2>
+        
+    </header>
+    <div class="register">
+        <h3>Add a new user</h3>
+
+        <div>
+            <label>Email:</label>
+            <input type="text" id="txtEmail">
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" id="txtPassword">
+        </div>
+        <div>
+            <label>First name: </label>
+            <input type="text" id="txtFirstName">
+        </div>
+        <div>
+            <label>Last name:</label>
+            <input type="text" id="txtLastName">
+        </div>
+        <div>
+            <label>Age: </label>
+            <input type="number" id="txtAge">
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input type="text" id="txtGender">
+        </div>
+        <div>
+            <label>Phone:</label>
+            <input type="tel" id="txtPhone">
+        </div>
+       
+        <div>
+            <label>Payment:</label>
+            <select id="selPayment">
+                <option value="cash">Cash</option>
+                <option value="credit">Credit Card</option>
+                <option value="paypal">Paypal</option>
+            </select>
+        </div>
+        <div>
+            <label>Color:</label>
+            <input type="color" id="selColor">
+        </div>
+        <button id="btnAdd">Add</button>
+        </div>
+        <div class="full-users-table">
+        <table>
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Phone</th>
+                <th>Payment</th>
+                <th>Color</th>
+                <th>Email</th>
+                
+                
+            </thead>
+            <tbody id="users-table">
+                <tr>
+        
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js">
+        </script>
+        <script src="Farmstorescripts/Farmstoremanager.js"></script>
+        <script src="Farmstorescripts/Farmstoreusers.js"></script>
+        
+</body>
+<a href="https://www.freepik.com/free-vector/gingham-style-background_897919.htm#query=red%20checkerboard%20pattern&position=19&from_view=search&track=ais">Image by kjpargeter</a> on Freepik
+</html>

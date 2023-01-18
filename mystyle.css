@@ -1,0 +1,38 @@
+.shop-name{
+    font-family: 'Amatic SC', cursive;
+    font-size: 85px;
+    text-align: center;
+    background-color: rgb(207, 191, 171);
+    width: 100%;
+    height: 100px;
+    margin-bottom: -10px;
+}
+nav{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    height:47px;
+    background-color: rgb(252, 252, 252);
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+   
+
+}
+nav.menu{
+    font-family: 'Amatic SC', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(225, 146, 130);
+    height: 35px;
+    padding: 8px 10px;
+
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 65px;
+    font-weight: bolder;
+}

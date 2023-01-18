@@ -1,0 +1,116 @@
+.shop-name{
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    text-align: center;
+    background-color: rgb(207, 191, 171);
+    width: 100%;
+    height: 100px;
+    margin-bottom: -10px;
+}
+nav{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    height:47px;
+    background-color: rgb(252, 252, 252);
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+   
+
+}
+nav.menu{
+    font-family: 'Amatic SC', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(225, 146, 130);
+    height: 35px;
+    padding: 8px 10px;
+
+}
+.register{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(207, 191, 171);
+    width: 400px;
+    margin-left:10px;
+    margin-top: 10px;
+    transition: translate(-50%,50%);
+    top:50%;
+    left:50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+    padding:3px 3px;
+    border-radius: 3px;
+    font-family: 'Poppins',sans-serif;
+    color: #4a4a4a;
+    box-shadow: 0 5px 30px rgb(225, 146, 130,0.4);
+
+}
+thead,
+tfoot {
+    font-family: 'Amatic SC', cursive;
+    padding-left: 10px;
+    background-color: #d86464;
+    color: rgb(0, 0, 0);
+}
+
+tbody {
+    font-family: 'Amatic SC', cursive;
+    padding-left: 10px;
+    background-color: #fdfdfd;
+}
+
+caption {
+    font-family: 'Amatic SC', cursive;
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    font-family: 'Amatic SC', cursive;
+    border-collapse: collapse;
+    border: 2px solid rgb(8, 8, 8);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+td,
+th {
+    font-family: 'Amatic SC', cursive;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    
+}
+
+td {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+.users-table{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+.full-users-table{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.user-title{
+    font-family: 'Amatic SC', cursive;
+}
